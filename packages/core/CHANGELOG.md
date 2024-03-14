@@ -3,6 +3,98 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* "npm ci" → "npm install" message on project setup ([#102](https://github.com/featurevisor/featurevisor/issues/102)) ([03b29b1](https://github.com/featurevisor/featurevisor/commit/03b29b1ff594f33e5ca813cbbaaa3179b6bab390))
+* Add site package as a dependency in core ([#33](https://github.com/featurevisor/featurevisor/issues/33)) ([3d59400](https://github.com/featurevisor/featurevisor/commit/3d59400d27e20df60f640e9b5bc4e7a60514b67d))
+* build output in CLI made more readable ([#94](https://github.com/featurevisor/featurevisor/issues/94)) ([5dc3ccf](https://github.com/featurevisor/featurevisor/commit/5dc3ccf12169d9a996abee6168a470de262b990c))
+* do not include variable description in datafiles ([#186](https://github.com/featurevisor/featurevisor/issues/186)) ([ad06c3e](https://github.com/featurevisor/featurevisor/commit/ad06c3e1db7233a5a4c92de32683059a1cb596f8))
+* do not require variation type in Feature's YAML ([#57](https://github.com/featurevisor/featurevisor/issues/57)) ([2e7c0cf](https://github.com/featurevisor/featurevisor/commit/2e7c0cfb441a60beffa14dae17152257d97862b0))
+* do not show test spec history entries in generated site ([#214](https://github.com/featurevisor/featurevisor/issues/214)) ([f608f92](https://github.com/featurevisor/featurevisor/commit/f608f92922f3a533780d258162430f5864e5c6f3))
+* extract segment keys from forced rules ([#217](https://github.com/featurevisor/featurevisor/issues/217)) ([a2aebe6](https://github.com/featurevisor/featurevisor/commit/a2aebe6ee7a6ecb811e9b1f8410b3bb54cb22ad0))
+* include variation allocations when introduced later ([#229](https://github.com/featurevisor/featurevisor/issues/229)) ([1e3f7fb](https://github.com/featurevisor/featurevisor/commit/1e3f7fbde2fc95e8e4dab12d86bb6a76bab410b3))
+* last modified info in generated site ([#190](https://github.com/featurevisor/featurevisor/issues/190)) ([1b16152](https://github.com/featurevisor/featurevisor/commit/1b16152845f1762962b3c841ee3a2f2a60427dfa))
+* lint entity names ([#266](https://github.com/featurevisor/featurevisor/issues/266)) ([7e63137](https://github.com/featurevisor/featurevisor/commit/7e63137fa2821605362c742475d78c8256f89fcd))
+* linting ([230bfa0](https://github.com/featurevisor/featurevisor/commit/230bfa0824f79181581585ccc37c2e78c5aeac42))
+* linting fixes ([#27](https://github.com/featurevisor/featurevisor/issues/27)) ([8f16194](https://github.com/featurevisor/featurevisor/commit/8f161943332a617a5e25f811c985e1a33a9559fa))
+* linting improvements ([#78](https://github.com/featurevisor/featurevisor/issues/78)) ([8c34b23](https://github.com/featurevisor/featurevisor/commit/8c34b23b9cc6071dde03b41128ca0061c7577b4c))
+* linting should pick up non-array matrix values in tests ([#265](https://github.com/featurevisor/featurevisor/issues/265)) ([f89c7c3](https://github.com/featurevisor/featurevisor/commit/f89c7c3eb19886dd60acf9e4f0ba80d11f12d0e0))
+* move to next condition if parsing fails ([#279](https://github.com/featurevisor/featurevisor/issues/279)) ([9f198e2](https://github.com/featurevisor/featurevisor/commit/9f198e2303498c2c74fb2a9a2fcfa5c320acf93f))
+* publish access ([ea5cd7c](https://github.com/featurevisor/featurevisor/commit/ea5cd7cd8554e2def5fdcc1d3488598a08e99bfa))
+* show linting error only when it fails ([#96](https://github.com/featurevisor/featurevisor/issues/96)) ([f563487](https://github.com/featurevisor/featurevisor/commit/f5634870a3b21fdb0078c92328b80aa87490df45))
+* stringify segments in variable overrides correctly ([#241](https://github.com/featurevisor/featurevisor/issues/241)) ([986fc2f](https://github.com/featurevisor/featurevisor/commit/986fc2fb814a0be091250d63b3cd08a9901dc5cd))
+* testing JSON variables in both object and stringified form ([#201](https://github.com/featurevisor/featurevisor/issues/201)) ([c6473da](https://github.com/featurevisor/featurevisor/commit/c6473da1613539ff5d24ed5c0dce587530cd1fc2))
+* testing nested objects equality ([#204](https://github.com/featurevisor/featurevisor/issues/204)) ([b71d54a](https://github.com/featurevisor/featurevisor/commit/b71d54ab8043b63f010721a9e9afd7d9579d3c75))
+* typo fix in core package ([#89](https://github.com/featurevisor/featurevisor/issues/89)) ([8b58885](https://github.com/featurevisor/featurevisor/commit/8b588858631fcea952fb8737d32d1920b9879225))
+* using not operator in feature rules ([#211](https://github.com/featurevisor/featurevisor/issues/211)) ([dd7fda3](https://github.com/featurevisor/featurevisor/commit/dd7fda38d87181a06d9dbfe08676dfd99afab539))
+
+
+### Features
+
+* adapter based datasource ([#178](https://github.com/featurevisor/featurevisor/issues/178)) ([554f68b](https://github.com/featurevisor/featurevisor/commit/554f68bcb3ca1a781043cc12cf26444c10d43d0f))
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* allow building datafiles with custom revision flag in CLI ([#77](https://github.com/featurevisor/featurevisor/issues/77)) ([dbcdcce](https://github.com/featurevisor/featurevisor/commit/dbcdcce28c9d7791b7b010b3940e033439cc92a2))
+* allow exposing features with tags + environment combination ([#254](https://github.com/featurevisor/featurevisor/issues/254)) ([1ae08e7](https://github.com/featurevisor/featurevisor/commit/1ae08e71393b620f98f7080aff18033a3e3b7192))
+* allow option to test by generating datafiles early ([#267](https://github.com/featurevisor/featurevisor/issues/267)) ([d2104ff](https://github.com/featurevisor/featurevisor/commit/d2104ffe25787e2d6deda18b632ad4830139061c))
+* Allow overriding variation for specific rules ([#51](https://github.com/featurevisor/featurevisor/issues/51)) ([e6447df](https://github.com/featurevisor/featurevisor/commit/e6447df579d8b579aa67a44ba7a370b7cac9f320))
+* allow printing datafile per environment ([#275](https://github.com/featurevisor/featurevisor/issues/275)) ([28b4a0f](https://github.com/featurevisor/featurevisor/commit/28b4a0f776e2510f821a7c9d912c3c348857a729))
+* allow rules to have description ([#206](https://github.com/featurevisor/featurevisor/issues/206)) ([7d4db28](https://github.com/featurevisor/featurevisor/commit/7d4db28dda51db35e2000828b0974f05e9cc5757))
+* allow showing only failed specs in test runner ([#276](https://github.com/featurevisor/featurevisor/issues/276)) ([cefab8f](https://github.com/featurevisor/featurevisor/commit/cefab8f8c0eb091c10bee213039920d55fa3957a))
+* allow tags to be lower cased and alphanumeric only ([#76](https://github.com/featurevisor/featurevisor/issues/76)) ([de353b9](https://github.com/featurevisor/featurevisor/commit/de353b90c6ac3d2b09cb767192eac27ebf0ae4bd))
+* attribute type for semver ([#221](https://github.com/featurevisor/featurevisor/issues/221)) ([278e366](https://github.com/featurevisor/featurevisor/commit/278e366d76b3f6ed5b6aae1b96f8ca1149276574))
+* code generation ([#98](https://github.com/featurevisor/featurevisor/issues/98)) ([7474443](https://github.com/featurevisor/featurevisor/commit/7474443d26fd526f471ef5258cbe39b42c0fad60))
+* Create SDK instance for fetching datafile ([#19](https://github.com/featurevisor/featurevisor/issues/19)) ([4560fb2](https://github.com/featurevisor/featurevisor/commit/4560fb24a1989e46b2d18eb342806e0fc3a50af7))
+* custom parser API for going beyond just YAML files ([#158](https://github.com/featurevisor/featurevisor/issues/158)) ([3fb0352](https://github.com/featurevisor/featurevisor/commit/3fb0352e168d3f186bd54108eead789ec44da217))
+* datasource adapters now handling full CRUD ([#194](https://github.com/featurevisor/featurevisor/issues/194)) ([dd3accf](https://github.com/featurevisor/featurevisor/commit/dd3accfd955cbc14fec5eec166efa0223685ed33))
+* Date comparison operators ([#67](https://github.com/featurevisor/featurevisor/issues/67)) ([b555f39](https://github.com/featurevisor/featurevisor/commit/b555f39a0cb99e95e1d66a3c76df4483a26e2caf))
+* do not allow "variation" as variable key ([#87](https://github.com/featurevisor/featurevisor/issues/87)) ([03353eb](https://github.com/featurevisor/featurevisor/commit/03353eb02437b3e3d4e0987bb5c8a96b143d5579))
+* drop Allocation.percentage in datafiles ([#80](https://github.com/featurevisor/featurevisor/issues/80)) ([b43da69](https://github.com/featurevisor/featurevisor/commit/b43da6922f81aef9fe8e8a54342067627adb990b))
+* filter tests and support verbosity for debugging ([#212](https://github.com/featurevisor/featurevisor/issues/212)) ([414ef6d](https://github.com/featurevisor/featurevisor/commit/414ef6dd7ad47d287a91088aab474216361ee6c6))
+* find duplicate segments from CLI ([#172](https://github.com/featurevisor/featurevisor/issues/172)) ([ac7fa9f](https://github.com/featurevisor/featurevisor/commit/ac7fa9fa66350c82d2f8208364563fa67d309e85))
+* get history info from datasource ([#213](https://github.com/featurevisor/featurevisor/issues/213)) ([6107a6b](https://github.com/featurevisor/featurevisor/commit/6107a6bee14708114413e4e59cb7ebeb061a79bd))
+* Introduce logging ([#47](https://github.com/featurevisor/featurevisor/issues/47)) ([810e813](https://github.com/featurevisor/featurevisor/commit/810e813f21befce278c11c81838fbdd7e829fbe9))
+* Introduce new JSON type for variables ([#28](https://github.com/featurevisor/featurevisor/issues/28)) ([49ff4cb](https://github.com/featurevisor/featurevisor/commit/49ff4cb99f840f29e9ac8fcacfee9a9a961ff776))
+* Introduce semver operators ([#30](https://github.com/featurevisor/featurevisor/issues/30)) ([b2841c3](https://github.com/featurevisor/featurevisor/commit/b2841c3473e9100f9a7f404c7ed15903037523a7))
+* JSON Schemas ([#58](https://github.com/featurevisor/featurevisor/issues/58)) ([697536a](https://github.com/featurevisor/featurevisor/commit/697536a0f08de81d78b853a00ece041fa1ff6405))
+* let variables have descriptions ([#165](https://github.com/featurevisor/featurevisor/issues/165)) ([2a1b73d](https://github.com/featurevisor/featurevisor/commit/2a1b73d274ae10184db024ca41aa73011b8e8532))
+* lint by key pattern and entity type ([#261](https://github.com/featurevisor/featurevisor/issues/261)) ([f4ab707](https://github.com/featurevisor/featurevisor/commit/f4ab707abc32660765d72be64bec7bedf83fa94e))
+* Linter overhaul ([#259](https://github.com/featurevisor/featurevisor/issues/259)) ([403eac0](https://github.com/featurevisor/featurevisor/commit/403eac02c21cf716092fb4aa6ea447b6bd7df732))
+* Linting based on available keys ([#73](https://github.com/featurevisor/featurevisor/issues/73)) ([0dcc95a](https://github.com/featurevisor/featurevisor/commit/0dcc95a17e7faae2b17f73c39b48a2a6a25d5891))
+* make bucketing key configurable ([#79](https://github.com/featurevisor/featurevisor/issues/79)) ([c05f0da](https://github.com/featurevisor/featurevisor/commit/c05f0dae9e6e1d4ee68f2c457a49137bbd6727d9))
+* make segments testable ([#95](https://github.com/featurevisor/featurevisor/issues/95)) ([15eae3c](https://github.com/featurevisor/featurevisor/commit/15eae3cdf12a32e376e68ced015a9e697eb61da4))
+* Matrix for test specs ([#244](https://github.com/featurevisor/featurevisor/issues/244)) ([bfcb9c2](https://github.com/featurevisor/featurevisor/commit/bfcb9c21703e182bf5cadd58f371935df4bef3d4))
+* Mutually exclusive experiments via Groups ([#63](https://github.com/featurevisor/featurevisor/issues/63)) ([f3c8523](https://github.com/featurevisor/featurevisor/commit/f3c85236d36fd0e499897f9ce1c2ed551c111523))
+* NOT operator ([#16](https://github.com/featurevisor/featurevisor/issues/16)) ([9c7b239](https://github.com/featurevisor/featurevisor/commit/9c7b23944a37c327308f441f4afd2731aaf97889))
+* omit empty ranges in datafile ([#81](https://github.com/featurevisor/featurevisor/issues/81)) ([148866f](https://github.com/featurevisor/featurevisor/commit/148866fd77796378011a7ff474640c4188885e01))
+* Pretty JSON ([#75](https://github.com/featurevisor/featurevisor/issues/75)) ([322bc3a](https://github.com/featurevisor/featurevisor/commit/322bc3a7f1676cf32e19f693d5736dc8f1db8d5a))
+* print feature datafile ([#256](https://github.com/featurevisor/featurevisor/issues/256)) ([b24d8ab](https://github.com/featurevisor/featurevisor/commit/b24d8ab4d4b4ffd403a380ed7d6d2acb016e2805))
+* ranges in datafiles as tuples ([#74](https://github.com/featurevisor/featurevisor/issues/74)) ([07a3d92](https://github.com/featurevisor/featurevisor/commit/07a3d9292f4038ebd68338bb905a34b2f13d36d9))
+* React integration package ([#56](https://github.com/featurevisor/featurevisor/issues/56)) ([d0f6ad8](https://github.com/featurevisor/featurevisor/commit/d0f6ad8a7e40fa06a741706a5322c08486e84ea9))
+* renamed Attributes (object) to Context ([#101](https://github.com/featurevisor/featurevisor/issues/101)) ([c392ad5](https://github.com/featurevisor/featurevisor/commit/c392ad5f1b6100167aa5637b131f08036a7f5a55))
+* require certain fields in features and tests when linting ([#222](https://github.com/featurevisor/featurevisor/issues/222)) ([5d8ed18](https://github.com/featurevisor/featurevisor/commit/5d8ed183573a23fd418a5ee6b74dc9e8f51064a3))
+* restore state files ([#100](https://github.com/featurevisor/featurevisor/issues/100)) ([796695d](https://github.com/featurevisor/featurevisor/commit/796695d0f645869ec305c3446282fba7e45e2bb5))
+* revisioning info moved to its own file ([#274](https://github.com/featurevisor/featurevisor/issues/274)) ([6a175d1](https://github.com/featurevisor/featurevisor/commit/6a175d1be01c1ab78661bbd93d535de69af47135))
+* SDK Instance from a single class ([#68](https://github.com/featurevisor/featurevisor/issues/68)) ([1ab1d49](https://github.com/featurevisor/featurevisor/commit/1ab1d49916fd4ccd14d5ec47d11e6bd863fd0af1))
+* SDK to support isEnabled() checks ([#104](https://github.com/featurevisor/featurevisor/issues/104)) ([4f52136](https://github.com/featurevisor/featurevisor/commit/4f521367a3f1ef76833ba614b6a1f4b66abef2e1))
+* segment testing assertion property updated ([#113](https://github.com/featurevisor/featurevisor/issues/113)) ([cbf693e](https://github.com/featurevisor/featurevisor/commit/cbf693eb864623f89a04a11220ebfa872097fbee))
+* showDatafile option when running tests ([#242](https://github.com/featurevisor/featurevisor/issues/242)) ([6c9561f](https://github.com/featurevisor/featurevisor/commit/6c9561f6253c94750817737c3e09162e4a904f8a))
+* state files are now per environment ([#72](https://github.com/featurevisor/featurevisor/issues/72)) ([925f4cf](https://github.com/featurevisor/featurevisor/commit/925f4cf980134db60c40c2e27259a3d6142f16aa))
+* Status site generator ([#31](https://github.com/featurevisor/featurevisor/issues/31)) ([05749d4](https://github.com/featurevisor/featurevisor/commit/05749d4ca2938a0ee7c7b52c7441b078d5f0dee9))
+* Support deprecating features ([#117](https://github.com/featurevisor/featurevisor/issues/117)) ([992740d](https://github.com/featurevisor/featurevisor/commit/992740d5fbdda2bb15cf4a782147f0ed13d9288c))
+* support objects as variables ([#18](https://github.com/featurevisor/featurevisor/issues/18)) ([c1b6160](https://github.com/featurevisor/featurevisor/commit/c1b61609d299bbf2e46c644c4f09336cdd94e128))
+* test specs improvements ([#160](https://github.com/featurevisor/featurevisor/issues/160)) ([fd8fa01](https://github.com/featurevisor/featurevisor/commit/fd8fa01f517bcfd5dfde80f311a9c546dd481ff1))
+* the D of CRUD ([#195](https://github.com/featurevisor/featurevisor/issues/195)) ([c1a0242](https://github.com/featurevisor/featurevisor/commit/c1a02420d758eb1f711aa375eeb1a9ff4e91eee3))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+* Variable overrides at rule level ([#23](https://github.com/featurevisor/featurevisor/issues/23)) ([c4792a0](https://github.com/featurevisor/featurevisor/commit/c4792a0beaf33370a3afaafa665491a59e876412))
+* YAML includes support with example project ([#180](https://github.com/featurevisor/featurevisor/issues/180)) ([6c9b4be](https://github.com/featurevisor/featurevisor/commit/6c9b4be0ce12a698652767261a6a7b90ffbb122c))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* entity links from history timeline ([#202](https://github.com/featurevisor/featurevisor/issues/202)) ([3465438](https://github.com/featurevisor/featurevisor/commit/346543801ec301210e9263aae0936993cc6ffc7d))
+* for showing variations tab in generated site ([#107](https://github.com/featurevisor/featurevisor/issues/107)) ([55af854](https://github.com/featurevisor/featurevisor/commit/55af854c95bbda5eaa0b5d6a8c4f615a59fdecd4))
+* show string segments in generated site ([#246](https://github.com/featurevisor/featurevisor/issues/246)) ([e22e122](https://github.com/featurevisor/featurevisor/commit/e22e12231304a7eaeb389b8e32dce141429df47b))
+* show warning in site when rules are not exposed ([#192](https://github.com/featurevisor/featurevisor/issues/192)) ([cd45121](https://github.com/featurevisor/featurevisor/commit/cd45121a8662daa8fe771b0366da28adc9e481c2))
+* **site:** properly handle bucketBy.or in feature ([#263](https://github.com/featurevisor/featurevisor/issues/263)) ([5574613](https://github.com/featurevisor/featurevisor/commit/5574613012a2e8d927ce8486033556bc1f276049))
+* stringify variable value when rendering in generated site ([#243](https://github.com/featurevisor/featurevisor/issues/243)) ([9daf95b](https://github.com/featurevisor/featurevisor/commit/9daf95b47885775a4151139a69d8b85720f1da0a))
+
+
+### Features
+
+* add deep linking, persist search in url ([#188](https://github.com/featurevisor/featurevisor/issues/188)) ([0f2225d](https://github.com/featurevisor/featurevisor/commit/0f2225d27f85b88cb0ee70715ddf5071c7ca8802))
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* additional advanced search options in generated site ([#257](https://github.com/featurevisor/featurevisor/issues/257)) ([6e0b34a](https://github.com/featurevisor/featurevisor/commit/6e0b34a150119b990c10d8c882d99f8aba4bff66))
+* small site navigation improvements ([#191](https://github.com/featurevisor/featurevisor/issues/191)) ([a4df1b3](https://github.com/featurevisor/featurevisor/commit/a4df1b37d28cf5fb03eb3c0d27451a6ede8132f4))
+* Status site generator ([#31](https://github.com/featurevisor/featurevisor/issues/31)) ([05749d4](https://github.com/featurevisor/featurevisor/commit/05749d4ca2938a0ee7c7b52c7441b078d5f0dee9))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+
+
+
+
+
 ## [1.7.1](https://github.com/featurevisor/featurevisor/compare/v1.7.0...v1.7.1) (2024-02-15)
 
 

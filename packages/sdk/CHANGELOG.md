@@ -3,6 +3,65 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* break in switch statement of logger handler ([#116](https://github.com/featurevisor/featurevisor/issues/116)) ([d836263](https://github.com/featurevisor/featurevisor/commit/d83626398cb15ffe02eae215cfebe8d6842f4f9e))
+* do not require variation type in Feature's YAML ([#57](https://github.com/featurevisor/featurevisor/issues/57)) ([2e7c0cf](https://github.com/featurevisor/featurevisor/commit/2e7c0cfb441a60beffa14dae17152257d97862b0))
+* evaluate variables overridden from rules with no variations ([#189](https://github.com/featurevisor/featurevisor/issues/189)) ([3144f20](https://github.com/featurevisor/featurevisor/commit/3144f20f9c50b998acaa5cf8a666c5f6b1e82f26))
+* forcing variation with variable overrides ([#236](https://github.com/featurevisor/featurevisor/issues/236)) ([76cac7e](https://github.com/featurevisor/featurevisor/commit/76cac7e53f9a9da34bac06ad4a297c12f151e4f6))
+* linting ([230bfa0](https://github.com/featurevisor/featurevisor/commit/230bfa0824f79181581585ccc37c2e78c5aeac42))
+* move to next condition if parsing fails ([#279](https://github.com/featurevisor/featurevisor/issues/279)) ([9f198e2](https://github.com/featurevisor/featurevisor/commit/9f198e2303498c2c74fb2a9a2fcfa5c320acf93f))
+* publish access ([ea5cd7c](https://github.com/featurevisor/featurevisor/commit/ea5cd7cd8554e2def5fdcc1d3488598a08e99bfa))
+* remove duplicate redundant types ([#69](https://github.com/featurevisor/featurevisor/issues/69)) ([9501802](https://github.com/featurevisor/featurevisor/commit/95018028b9beed19af7ab98a12b30163fdd2434c))
+* return defaultVariation when feature cannot be bucketed ([#26](https://github.com/featurevisor/featurevisor/issues/26)) ([47363c9](https://github.com/featurevisor/featurevisor/commit/47363c91d4052480b2a286a5399afce4c10ed7a1))
+* rule percentage checks are now inclusive of end range ([#248](https://github.com/featurevisor/featurevisor/issues/248)) ([339231c](https://github.com/featurevisor/featurevisor/commit/339231c66391288e0e831f02b9407453938385d1))
+* SDK README updates ([#106](https://github.com/featurevisor/featurevisor/issues/106)) ([1c6ac53](https://github.com/featurevisor/featurevisor/commit/1c6ac5311ac0d8df748cbb67e1e5b426038fee71))
+* use compare-versions package to reduce sdk bundle size ([#53](https://github.com/featurevisor/featurevisor/issues/53)) ([d921436](https://github.com/featurevisor/featurevisor/commit/d921436a51f88b713d4b295521f34f6c1e447972))
+* using not operator in feature rules ([#211](https://github.com/featurevisor/featurevisor/issues/211)) ([dd7fda3](https://github.com/featurevisor/featurevisor/commit/dd7fda38d87181a06d9dbfe08676dfd99afab539))
+
+
+### Features
+
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* Allow overriding variation for specific rules ([#51](https://github.com/featurevisor/featurevisor/issues/51)) ([e6447df](https://github.com/featurevisor/featurevisor/commit/e6447df579d8b579aa67a44ba7a370b7cac9f320))
+* allow single segments to be defined without needing arrays ([#159](https://github.com/featurevisor/featurevisor/issues/159)) ([b3ad42c](https://github.com/featurevisor/featurevisor/commit/b3ad42c01584e8dfbe8274273e447bf8c645b3b9))
+* Create SDK instance for fetching datafile ([#19](https://github.com/featurevisor/featurevisor/issues/19)) ([4560fb2](https://github.com/featurevisor/featurevisor/commit/4560fb24a1989e46b2d18eb342806e0fc3a50af7))
+* Date comparison operators ([#67](https://github.com/featurevisor/featurevisor/issues/67)) ([b555f39](https://github.com/featurevisor/featurevisor/commit/b555f39a0cb99e95e1d66a3c76df4483a26e2caf))
+* drop Allocation.percentage in datafiles ([#80](https://github.com/featurevisor/featurevisor/issues/80)) ([b43da69](https://github.com/featurevisor/featurevisor/commit/b43da6922f81aef9fe8e8a54342067627adb990b))
+* drop type specific activate methods ([#105](https://github.com/featurevisor/featurevisor/issues/105)) ([5faca24](https://github.com/featurevisor/featurevisor/commit/5faca24e29665a03919ebf467bfb6a9c70c8e648))
+* Evaluation details in SDK ([#99](https://github.com/featurevisor/featurevisor/issues/99)) ([016c73d](https://github.com/featurevisor/featurevisor/commit/016c73d7deb0c5888a4fca88881b2cb9fdf4ac9a))
+* Event listeners ([#55](https://github.com/featurevisor/featurevisor/issues/55)) ([eaeb7f6](https://github.com/featurevisor/featurevisor/commit/eaeb7f62d78e81bff8be28fff46f4088f4d9aa5b))
+* filter tests and support verbosity for debugging ([#212](https://github.com/featurevisor/featurevisor/issues/212)) ([414ef6d](https://github.com/featurevisor/featurevisor/commit/414ef6dd7ad47d287a91088aab474216361ee6c6))
+* Initial features ([#66](https://github.com/featurevisor/featurevisor/issues/66)) ([ec91d6e](https://github.com/featurevisor/featurevisor/commit/ec91d6e383c6795850bbb8e35a734f754378c68f))
+* intercept attributes ([#48](https://github.com/featurevisor/featurevisor/issues/48)) ([4e08784](https://github.com/featurevisor/featurevisor/commit/4e0878422f6d23e850c708eaa4deadf1e8f0d04c))
+* Introduce logging ([#47](https://github.com/featurevisor/featurevisor/issues/47)) ([810e813](https://github.com/featurevisor/featurevisor/commit/810e813f21befce278c11c81838fbdd7e829fbe9))
+* Introduce new JSON type for variables ([#28](https://github.com/featurevisor/featurevisor/issues/28)) ([49ff4cb](https://github.com/featurevisor/featurevisor/commit/49ff4cb99f840f29e9ac8fcacfee9a9a961ff776))
+* Introduce semver operators ([#30](https://github.com/featurevisor/featurevisor/issues/30)) ([b2841c3](https://github.com/featurevisor/featurevisor/commit/b2841c3473e9100f9a7f404c7ed15903037523a7))
+* make bucketing key configurable ([#79](https://github.com/featurevisor/featurevisor/issues/79)) ([c05f0da](https://github.com/featurevisor/featurevisor/commit/c05f0dae9e6e1d4ee68f2c457a49137bbd6727d9))
+* make getFeature() method public ([#122](https://github.com/featurevisor/featurevisor/issues/122)) ([e56455e](https://github.com/featurevisor/featurevisor/commit/e56455e11ec7895455e2ff22436b7380f67e184d))
+* make segments testable ([#95](https://github.com/featurevisor/featurevisor/issues/95)) ([15eae3c](https://github.com/featurevisor/featurevisor/commit/15eae3cdf12a32e376e68ced015a9e697eb61da4))
+* Mutually exclusive experiments via Groups ([#63](https://github.com/featurevisor/featurevisor/issues/63)) ([f3c8523](https://github.com/featurevisor/featurevisor/commit/f3c85236d36fd0e499897f9ce1c2ed551c111523))
+* NOT operator ([#16](https://github.com/featurevisor/featurevisor/issues/16)) ([9c7b239](https://github.com/featurevisor/featurevisor/commit/9c7b23944a37c327308f441f4afd2731aaf97889))
+* onReady method for SDK as Promise ([#133](https://github.com/featurevisor/featurevisor/issues/133)) ([e8dd395](https://github.com/featurevisor/featurevisor/commit/e8dd39557b60b40d67488647d60f23423bbfbbb9))
+* ranges in datafiles as tuples ([#74](https://github.com/featurevisor/featurevisor/issues/74)) ([07a3d92](https://github.com/featurevisor/featurevisor/commit/07a3d9292f4038ebd68338bb905a34b2f13d36d9))
+* React integration package ([#56](https://github.com/featurevisor/featurevisor/issues/56)) ([d0f6ad8](https://github.com/featurevisor/featurevisor/commit/d0f6ad8a7e40fa06a741706a5322c08486e84ea9))
+* refresh datafile ([#52](https://github.com/featurevisor/featurevisor/issues/52)) ([d09b966](https://github.com/featurevisor/featurevisor/commit/d09b966b2b5b19ac267b1c5dae77a05296f0d174))
+* renamed Attributes (object) to Context ([#101](https://github.com/featurevisor/featurevisor/issues/101)) ([c392ad5](https://github.com/featurevisor/featurevisor/commit/c392ad5f1b6100167aa5637b131f08036a7f5a55))
+* SDK Instance from a single class ([#68](https://github.com/featurevisor/featurevisor/issues/68)) ([1ab1d49](https://github.com/featurevisor/featurevisor/commit/1ab1d49916fd4ccd14d5ec47d11e6bd863fd0af1))
+* SDK to support isEnabled() checks ([#104](https://github.com/featurevisor/featurevisor/issues/104)) ([4f52136](https://github.com/featurevisor/featurevisor/commit/4f521367a3f1ef76833ba614b6a1f4b66abef2e1))
+* sticky features ([#65](https://github.com/featurevisor/featurevisor/issues/65)) ([eb4ff69](https://github.com/featurevisor/featurevisor/commit/eb4ff69dcb3d6f979eb1c9dec3fe4cf1583e1fc9))
+* Support deprecating features ([#117](https://github.com/featurevisor/featurevisor/issues/117)) ([992740d](https://github.com/featurevisor/featurevisor/commit/992740d5fbdda2bb15cf4a782147f0ed13d9288c))
+* support objects as variables ([#18](https://github.com/featurevisor/featurevisor/issues/18)) ([c1b6160](https://github.com/featurevisor/featurevisor/commit/c1b61609d299bbf2e46c644c4f09336cdd94e128))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+* Variable overrides at rule level ([#23](https://github.com/featurevisor/featurevisor/issues/23)) ([c4792a0](https://github.com/featurevisor/featurevisor/commit/c4792a0beaf33370a3afaafa665491a59e876412))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 

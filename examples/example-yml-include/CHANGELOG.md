@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Features
+
+* YAML includes support with example project ([#180](https://github.com/meirroth/featurevisor/issues/180)) ([6c9b4be](https://github.com/meirroth/featurevisor/commit/6c9b4be0ce12a698652767261a6a7b90ffbb122c))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 **Note:** Version bump only for package @featurevisor/example-yml-include

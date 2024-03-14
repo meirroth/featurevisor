@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* do not require variation type in Feature's YAML ([#57](https://github.com/featurevisor/featurevisor/issues/57)) ([2e7c0cf](https://github.com/featurevisor/featurevisor/commit/2e7c0cfb441a60beffa14dae17152257d97862b0))
+* useStatus React hook ([#124](https://github.com/featurevisor/featurevisor/issues/124)) ([d042979](https://github.com/featurevisor/featurevisor/commit/d042979d4f01d11eff88cfb545fe68fc8d0c8e98))
+
+
+### Features
+
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* allow customizing bucket key ([#71](https://github.com/featurevisor/featurevisor/issues/71)) ([c905ab5](https://github.com/featurevisor/featurevisor/commit/c905ab5354e29a3cad884003cdb96e89044e2f1c))
+* drop Allocation.percentage in datafiles ([#80](https://github.com/featurevisor/featurevisor/issues/80)) ([b43da69](https://github.com/featurevisor/featurevisor/commit/b43da6922f81aef9fe8e8a54342067627adb990b))
+* Hooks for checking if feature is enabled in React and Vue.js ([#108](https://github.com/featurevisor/featurevisor/issues/108)) ([4e2a269](https://github.com/featurevisor/featurevisor/commit/4e2a269da923a94055d232ec479e6562dc297120))
+* Mutually exclusive experiments via Groups ([#63](https://github.com/featurevisor/featurevisor/issues/63)) ([f3c8523](https://github.com/featurevisor/featurevisor/commit/f3c85236d36fd0e499897f9ce1c2ed551c111523))
+* React integration package ([#56](https://github.com/featurevisor/featurevisor/issues/56)) ([d0f6ad8](https://github.com/featurevisor/featurevisor/commit/d0f6ad8a7e40fa06a741706a5322c08486e84ea9))
+* React provider component prop renamed from sdk to instance ([#129](https://github.com/featurevisor/featurevisor/issues/129)) ([9e8015c](https://github.com/featurevisor/featurevisor/commit/9e8015c14a0924d25b75f06fd2a6e6ef6c5eee7a))
+* renamed Attributes (object) to Context ([#101](https://github.com/featurevisor/featurevisor/issues/101)) ([c392ad5](https://github.com/featurevisor/featurevisor/commit/c392ad5f1b6100167aa5637b131f08036a7f5a55))
+* required features ([5b1e1c3](https://github.com/featurevisor/featurevisor/commit/5b1e1c354f0caac6435547a825d066c2f41d6063))
+* SDK to support isEnabled() checks ([#104](https://github.com/featurevisor/featurevisor/issues/104)) ([4f52136](https://github.com/featurevisor/featurevisor/commit/4f521367a3f1ef76833ba614b6a1f4b66abef2e1))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 **Note:** Version bump only for package @featurevisor/react

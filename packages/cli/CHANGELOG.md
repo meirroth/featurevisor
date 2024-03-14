@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* cli package ([5aeca09](https://github.com/featurevisor/featurevisor/commit/5aeca098a02afcd16c5327dc94a286006f618d60))
+* init command ([#277](https://github.com/featurevisor/featurevisor/issues/277)) ([1e46d79](https://github.com/featurevisor/featurevisor/commit/1e46d7992a632ce956e8821dbaae9677bef59a43))
+* linting ([230bfa0](https://github.com/featurevisor/featurevisor/commit/230bfa0824f79181581585ccc37c2e78c5aeac42))
+* publish access ([ea5cd7c](https://github.com/featurevisor/featurevisor/commit/ea5cd7cd8554e2def5fdcc1d3488598a08e99bfa))
+
+
+### Features
+
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* allow building datafiles with custom revision flag in CLI ([#77](https://github.com/featurevisor/featurevisor/issues/77)) ([dbcdcce](https://github.com/featurevisor/featurevisor/commit/dbcdcce28c9d7791b7b010b3940e033439cc92a2))
+* allow option to test by generating datafiles early ([#267](https://github.com/featurevisor/featurevisor/issues/267)) ([d2104ff](https://github.com/featurevisor/featurevisor/commit/d2104ffe25787e2d6deda18b632ad4830139061c))
+* allow showing only failed specs in test runner ([#276](https://github.com/featurevisor/featurevisor/issues/276)) ([cefab8f](https://github.com/featurevisor/featurevisor/commit/cefab8f8c0eb091c10bee213039920d55fa3957a))
+* code generation ([#98](https://github.com/featurevisor/featurevisor/issues/98)) ([7474443](https://github.com/featurevisor/featurevisor/commit/7474443d26fd526f471ef5258cbe39b42c0fad60))
+* filter tests and support verbosity for debugging ([#212](https://github.com/featurevisor/featurevisor/issues/212)) ([414ef6d](https://github.com/featurevisor/featurevisor/commit/414ef6dd7ad47d287a91088aab474216361ee6c6))
+* find duplicate segments from CLI ([#172](https://github.com/featurevisor/featurevisor/issues/172)) ([ac7fa9f](https://github.com/featurevisor/featurevisor/commit/ac7fa9fa66350c82d2f8208364563fa67d309e85))
+* get history info from datasource ([#213](https://github.com/featurevisor/featurevisor/issues/213)) ([6107a6b](https://github.com/featurevisor/featurevisor/commit/6107a6bee14708114413e4e59cb7ebeb061a79bd))
+* lint by key pattern and entity type ([#261](https://github.com/featurevisor/featurevisor/issues/261)) ([f4ab707](https://github.com/featurevisor/featurevisor/commit/f4ab707abc32660765d72be64bec7bedf83fa94e))
+* restore state files ([#100](https://github.com/featurevisor/featurevisor/issues/100)) ([796695d](https://github.com/featurevisor/featurevisor/commit/796695d0f645869ec305c3446282fba7e45e2bb5))
+* revisioning info moved to its own file ([#274](https://github.com/featurevisor/featurevisor/issues/274)) ([6a175d1](https://github.com/featurevisor/featurevisor/commit/6a175d1be01c1ab78661bbd93d535de69af47135))
+* showDatafile option when running tests ([#242](https://github.com/featurevisor/featurevisor/issues/242)) ([6c9561f](https://github.com/featurevisor/featurevisor/commit/6c9561f6253c94750817737c3e09162e4a904f8a))
+* state files are now per environment ([#72](https://github.com/featurevisor/featurevisor/issues/72)) ([925f4cf](https://github.com/featurevisor/featurevisor/commit/925f4cf980134db60c40c2e27259a3d6142f16aa))
+* Status site generator ([#31](https://github.com/featurevisor/featurevisor/issues/31)) ([05749d4](https://github.com/featurevisor/featurevisor/commit/05749d4ca2938a0ee7c7b52c7441b078d5f0dee9))
+* test PR for triggering minor release ([#2](https://github.com/featurevisor/featurevisor/issues/2)) ([1c986f9](https://github.com/featurevisor/featurevisor/commit/1c986f9ee4ee4669a118380771cb43fdf66e0137))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 **Note:** Version bump only for package @featurevisor/cli

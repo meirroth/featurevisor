@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Features
+
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/featurevisor/featurevisor/issues/170)) ([16a47c5](https://github.com/featurevisor/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* Hooks for checking if feature is enabled in React and Vue.js ([#108](https://github.com/featurevisor/featurevisor/issues/108)) ([4e2a269](https://github.com/featurevisor/featurevisor/commit/4e2a269da923a94055d232ec479e6562dc297120))
+* React provider component prop renamed from sdk to instance ([#129](https://github.com/featurevisor/featurevisor/issues/129)) ([9e8015c](https://github.com/featurevisor/featurevisor/commit/9e8015c14a0924d25b75f06fd2a6e6ef6c5eee7a))
+* renamed Attributes (object) to Context ([#101](https://github.com/featurevisor/featurevisor/issues/101)) ([c392ad5](https://github.com/featurevisor/featurevisor/commit/c392ad5f1b6100167aa5637b131f08036a7f5a55))
+* SDK to support isEnabled() checks ([#104](https://github.com/featurevisor/featurevisor/issues/104)) ([4f52136](https://github.com/featurevisor/featurevisor/commit/4f521367a3f1ef76833ba614b6a1f4b66abef2e1))
+* use Prettier v2.x ([#143](https://github.com/featurevisor/featurevisor/issues/143)) ([ddca499](https://github.com/featurevisor/featurevisor/commit/ddca499526f2f8bf10dc340fb55877584501a682))
+* Vue.js SDK ([#97](https://github.com/featurevisor/featurevisor/issues/97)) ([d099adb](https://github.com/featurevisor/featurevisor/commit/d099adbb6df923bc10aeb8c0a60c85612669e1a1))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 **Note:** Version bump only for package @featurevisor/vue

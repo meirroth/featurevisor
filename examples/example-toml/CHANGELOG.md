@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Features
+
+* custom parser API for going beyond just YAML files ([#158](https://github.com/meirroth/featurevisor/issues/158)) ([3fb0352](https://github.com/meirroth/featurevisor/commit/3fb0352e168d3f186bd54108eead789ec44da217))
+* find duplicate segments from CLI ([#172](https://github.com/meirroth/featurevisor/issues/172)) ([ac7fa9f](https://github.com/meirroth/featurevisor/commit/ac7fa9fa66350c82d2f8208364563fa67d309e85))
+* test specs improvements ([#160](https://github.com/meirroth/featurevisor/issues/160)) ([fd8fa01](https://github.com/meirroth/featurevisor/commit/fd8fa01f517bcfd5dfde80f311a9c546dd481ff1))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 **Note:** Version bump only for package @featurevisor/example-toml

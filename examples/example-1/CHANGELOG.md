@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0 (2024-03-14)
+
+
+### Bug Fixes
+
+* do not require variation type in Feature's YAML ([#57](https://github.com/meirroth/featurevisor/issues/57)) ([2e7c0cf](https://github.com/meirroth/featurevisor/commit/2e7c0cfb441a60beffa14dae17152257d97862b0))
+* evaluate variables overridden from rules with no variations ([#189](https://github.com/meirroth/featurevisor/issues/189)) ([3144f20](https://github.com/meirroth/featurevisor/commit/3144f20f9c50b998acaa5cf8a666c5f6b1e82f26))
+* extract segment keys from forced rules ([#217](https://github.com/meirroth/featurevisor/issues/217)) ([a2aebe6](https://github.com/meirroth/featurevisor/commit/a2aebe6ee7a6ecb811e9b1f8410b3bb54cb22ad0))
+* forcing variation with variable overrides ([#236](https://github.com/meirroth/featurevisor/issues/236)) ([76cac7e](https://github.com/meirroth/featurevisor/commit/76cac7e53f9a9da34bac06ad4a297c12f151e4f6))
+* linting fixes ([#27](https://github.com/meirroth/featurevisor/issues/27)) ([8f16194](https://github.com/meirroth/featurevisor/commit/8f161943332a617a5e25f811c985e1a33a9559fa))
+* move to next condition if parsing fails ([#279](https://github.com/meirroth/featurevisor/issues/279)) ([9f198e2](https://github.com/meirroth/featurevisor/commit/9f198e2303498c2c74fb2a9a2fcfa5c320acf93f))
+* return defaultVariation when feature cannot be bucketed ([#26](https://github.com/meirroth/featurevisor/issues/26)) ([47363c9](https://github.com/meirroth/featurevisor/commit/47363c91d4052480b2a286a5399afce4c10ed7a1))
+* rule percentage checks are now inclusive of end range ([#248](https://github.com/meirroth/featurevisor/issues/248)) ([339231c](https://github.com/meirroth/featurevisor/commit/339231c66391288e0e831f02b9407453938385d1))
+* show warning in site when rules are not exposed ([#192](https://github.com/meirroth/featurevisor/issues/192)) ([cd45121](https://github.com/meirroth/featurevisor/commit/cd45121a8662daa8fe771b0366da28adc9e481c2))
+* **site:** properly handle bucketBy.or in feature ([#263](https://github.com/meirroth/featurevisor/issues/263)) ([5574613](https://github.com/meirroth/featurevisor/commit/5574613012a2e8d927ce8486033556bc1f276049))
+* stringify segments in variable overrides correctly ([#241](https://github.com/meirroth/featurevisor/issues/241)) ([986fc2f](https://github.com/meirroth/featurevisor/commit/986fc2fb814a0be091250d63b3cd08a9901dc5cd))
+* stringify variable value when rendering in generated site ([#243](https://github.com/meirroth/featurevisor/issues/243)) ([9daf95b](https://github.com/meirroth/featurevisor/commit/9daf95b47885775a4151139a69d8b85720f1da0a))
+* testing JSON variables in both object and stringified form ([#201](https://github.com/meirroth/featurevisor/issues/201)) ([c6473da](https://github.com/meirroth/featurevisor/commit/c6473da1613539ff5d24ed5c0dce587530cd1fc2))
+* using not operator in feature rules ([#211](https://github.com/meirroth/featurevisor/issues/211)) ([dd7fda3](https://github.com/meirroth/featurevisor/commit/dd7fda38d87181a06d9dbfe08676dfd99afab539))
+
+
+### Features
+
+* add support for null, more specific validation of value type in segment ([#170](https://github.com/meirroth/featurevisor/issues/170)) ([16a47c5](https://github.com/meirroth/featurevisor/commit/16a47c5eec4fda07dd161eeb2e468b0ac736c18c))
+* allow exposing features with tags + environment combination ([#254](https://github.com/meirroth/featurevisor/issues/254)) ([1ae08e7](https://github.com/meirroth/featurevisor/commit/1ae08e71393b620f98f7080aff18033a3e3b7192))
+* Allow overriding variation for specific rules ([#51](https://github.com/meirroth/featurevisor/issues/51)) ([e6447df](https://github.com/meirroth/featurevisor/commit/e6447df579d8b579aa67a44ba7a370b7cac9f320))
+* allow rules to have description ([#206](https://github.com/meirroth/featurevisor/issues/206)) ([7d4db28](https://github.com/meirroth/featurevisor/commit/7d4db28dda51db35e2000828b0974f05e9cc5757))
+* allow single segments to be defined without needing arrays ([#159](https://github.com/meirroth/featurevisor/issues/159)) ([b3ad42c](https://github.com/meirroth/featurevisor/commit/b3ad42c01584e8dfbe8274273e447bf8c645b3b9))
+* allow tags to be lower cased and alphanumeric only ([#76](https://github.com/meirroth/featurevisor/issues/76)) ([de353b9](https://github.com/meirroth/featurevisor/commit/de353b90c6ac3d2b09cb767192eac27ebf0ae4bd))
+* code generation ([#98](https://github.com/meirroth/featurevisor/issues/98)) ([7474443](https://github.com/meirroth/featurevisor/commit/7474443d26fd526f471ef5258cbe39b42c0fad60))
+* custom parser API for going beyond just YAML files ([#158](https://github.com/meirroth/featurevisor/issues/158)) ([3fb0352](https://github.com/meirroth/featurevisor/commit/3fb0352e168d3f186bd54108eead789ec44da217))
+* Date comparison operators ([#67](https://github.com/meirroth/featurevisor/issues/67)) ([b555f39](https://github.com/meirroth/featurevisor/commit/b555f39a0cb99e95e1d66a3c76df4483a26e2caf))
+* find duplicate segments from CLI ([#172](https://github.com/meirroth/featurevisor/issues/172)) ([ac7fa9f](https://github.com/meirroth/featurevisor/commit/ac7fa9fa66350c82d2f8208364563fa67d309e85))
+* Introduce new JSON type for variables ([#28](https://github.com/meirroth/featurevisor/issues/28)) ([49ff4cb](https://github.com/meirroth/featurevisor/commit/49ff4cb99f840f29e9ac8fcacfee9a9a961ff776))
+* let variables have descriptions ([#165](https://github.com/meirroth/featurevisor/issues/165)) ([2a1b73d](https://github.com/meirroth/featurevisor/commit/2a1b73d274ae10184db024ca41aa73011b8e8532))
+* Linter overhaul ([#259](https://github.com/meirroth/featurevisor/issues/259)) ([403eac0](https://github.com/meirroth/featurevisor/commit/403eac02c21cf716092fb4aa6ea447b6bd7df732))
+* Linting based on available keys ([#73](https://github.com/meirroth/featurevisor/issues/73)) ([0dcc95a](https://github.com/meirroth/featurevisor/commit/0dcc95a17e7faae2b17f73c39b48a2a6a25d5891))
+* make segments testable ([#95](https://github.com/meirroth/featurevisor/issues/95)) ([15eae3c](https://github.com/meirroth/featurevisor/commit/15eae3cdf12a32e376e68ced015a9e697eb61da4))
+* Matrix for test specs ([#244](https://github.com/meirroth/featurevisor/issues/244)) ([bfcb9c2](https://github.com/meirroth/featurevisor/commit/bfcb9c21703e182bf5cadd58f371935df4bef3d4))
+* Mutually exclusive experiments via Groups ([#63](https://github.com/meirroth/featurevisor/issues/63)) ([f3c8523](https://github.com/meirroth/featurevisor/commit/f3c85236d36fd0e499897f9ce1c2ed551c111523))
+* renamed Attributes (object) to Context ([#101](https://github.com/meirroth/featurevisor/issues/101)) ([c392ad5](https://github.com/meirroth/featurevisor/commit/c392ad5f1b6100167aa5637b131f08036a7f5a55))
+* SDK to support isEnabled() checks ([#104](https://github.com/meirroth/featurevisor/issues/104)) ([4f52136](https://github.com/meirroth/featurevisor/commit/4f521367a3f1ef76833ba614b6a1f4b66abef2e1))
+* segment testing assertion property updated ([#113](https://github.com/meirroth/featurevisor/issues/113)) ([cbf693e](https://github.com/meirroth/featurevisor/commit/cbf693eb864623f89a04a11220ebfa872097fbee))
+* state files are now per environment ([#72](https://github.com/meirroth/featurevisor/issues/72)) ([925f4cf](https://github.com/meirroth/featurevisor/commit/925f4cf980134db60c40c2e27259a3d6142f16aa))
+* Status site generator ([#31](https://github.com/meirroth/featurevisor/issues/31)) ([05749d4](https://github.com/meirroth/featurevisor/commit/05749d4ca2938a0ee7c7b52c7441b078d5f0dee9))
+* support objects as variables ([#18](https://github.com/meirroth/featurevisor/issues/18)) ([c1b6160](https://github.com/meirroth/featurevisor/commit/c1b61609d299bbf2e46c644c4f09336cdd94e128))
+* test specs improvements ([#160](https://github.com/meirroth/featurevisor/issues/160)) ([fd8fa01](https://github.com/meirroth/featurevisor/commit/fd8fa01f517bcfd5dfde80f311a9c546dd481ff1))
+* Variable overrides at rule level ([#23](https://github.com/meirroth/featurevisor/issues/23)) ([c4792a0](https://github.com/meirroth/featurevisor/commit/c4792a0beaf33370a3afaafa665491a59e876412))
+
+
+
+
+
 ## [1.11.1](https://github.com/featurevisor/featurevisor/compare/v1.11.0...v1.11.1) (2024-03-14)
 
 
